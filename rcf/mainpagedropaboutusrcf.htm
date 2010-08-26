@@ -23,20 +23,42 @@ html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
 <body>
 
 <style type="text/css">
+.roundedcornr_box_619660 {
+   background: #cccccc;
+}
+.roundedcornr_top_619660 div {
+   background: url(corner-images/roundedcornr_619660_tl.png) no-repeat top left;
+}
+.roundedcornr_top_619660 {
+   background: url(corner-images/roundedcornr_619660_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom_619660 div {
+   background: url(corner-images/roundedcornr_619660_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom_619660 {
+   background: url(corner-images/roundedcornr_619660_br.png) no-repeat bottom right;
+}
 
-div.main
+.roundedcornr_top_619660 div, .roundedcornr_top_619660, 
+.roundedcornr_bottom_619660 div, .roundedcornr_bottom_619660 {
+   width: 100%;
+   height: 20px;
+   font-size: 1px;
+}
+.roundedcornr_content_619660 { margin: 10px; }
+
+#main
 {
 float:left;
-width:1085px;
-padding:5px;
-border:2.5px solid black;
+width:485px;
+
 margin:0px;
 }
 
 
 #surround
 {
-width:1100px;
+width:1000px;
 margin:0 auto;
 background:#FFFFFF;
 }
@@ -46,7 +68,7 @@ background:#FFFFFF;
 float:left;
 width:485px;
 padding:3px;
-border:2.5px solid black;
+border:2.5px solid white;
 }
 
 #menu
@@ -88,7 +110,7 @@ clear:both;
 
 <div id="myslidemenu" class="jqueryslidemenu">
 <ul>
-<li><a href="mainpagedrop.htm">Home</a></li>
+<li><a href="homepage.htm">Home</a></li>
 <li><a href="#">About Us</a>
 <ul>
 <li><a href="mainpagedropaboutusrcf.htm"> Reverse Career Fair</a></li>
@@ -123,17 +145,17 @@ clear:both;
 </div>
 
 <br />
-<div class="main"> <p>The Reverse Career Fair is run by the Information and Computer Science Student Council.(More Information goes here, maybe picture)</p> <br />
+
+<div class="roundedcornr_box_619660" id="main">
+   <div class="roundedcornr_top_619660"><div></div></div>
+      <div class="roundedcornr_content_619660">
+       <p>The Reverse Career Fair is run by the Information and Computer Science Student Council.(More Information goes here, maybe picture)</p> <br />
 <p>Students in the Bren School for Information and Computer Sciences gather at this event and show off ICS-related projects they have been working on or have finished. Project types include varieties of applications, ranging from phones to video games.</p>
-</div>
+      </div>
+   <div class="roundedcornr_bottom_619660"><div></div></div>
+</div> 
 
 
-
-</div>
-
-
-<div>
-</div>
 </body>
 </html>
 
