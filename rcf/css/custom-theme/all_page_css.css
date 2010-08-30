@@ -1,0 +1,90 @@
+body{
+position:absolute;
+top:60;
+left:0;
+height:100%;
+width:100%;
+font-family:Arial Unicode MS,Helvetica,sans-serif;}
+
+
+div.surround
+{
+width:1000px;
+margin:0 auto;
+background:#FFFFFF;
+}
+#logo
+{
+float:left;
+width:485px;
+padding:3px;
+border:2.5px solid white;
+}
+
+#menu
+{
+float:right;
+width:585px;
+padding:5px;
+border:2.5px solid white;
+}
+#menu ul {
+text-aligh:right;
+list-style:none;
+margin:0;
+padding:0;
+}
+#menu li {
+display:inline;
+padding:0px;
+padding-left:0px;
+padding-right:0px;
+border-width: 0px;
+margin: 0;
+}
+
+div.clearer
+{
+clear:both;
+}
+
+#headerspan {
+font-size:2.5px;
+background-color:#414141;
+}
+
+
+//shadow stuff
+#shadow-container {
+	position: relative;
+	left: 3px;
+	top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+ 
+#shadow-container .shadow2,
+#shadow-container .shadow3,
+#shadow-container .container {
+	position: relative;
+	left: -1px;
+	top: -1px;
+}
+ 
+	#shadow-container .shadow1 {
+		background: #F1F0F1;
+	}
+ 
+	#shadow-container .shadow2 {
+		background: #DBDADB;
+	}
+ 
+	#shadow-container .shadow3 {
+		background: #B8B6B8;
+	}
+ 
+	#shadow-container .container {
+		background: #ffffff;
+		border: 1px solid #848284;
+		padding: 10px;
+	}

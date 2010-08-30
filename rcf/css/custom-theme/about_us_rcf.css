@@ -31,44 +31,6 @@ margin:0px;
 }
 
 
-#surround
-{
-width:1000px;
-margin:0 auto;
-background:#FFFFFF;
-}
-
-#logo
-{
-float:left;
-width:485px;
-padding:3px;
-border:2.5px solid white;
-}
-
-#menu
-{
-float:right;
-width:585px;
-padding:5px;
-border:2.5px solid black;
-}
-#menu ul {
-text-aligh:right;
-list-style:none;
-margin:0;
-padding:0;
-}
-#menu li {
-display:inline;
-padding:0px;
-padding-left:0px;
-padding-right:0px;
-border-width: 0px;
-margin: 0;
-
-}
-
 #footer
 {
 clear:both;

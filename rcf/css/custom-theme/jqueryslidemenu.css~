@@ -1,5 +1,5 @@
 .jqueryslidemenu{
-font: bold 12px Arial Unicode MS;
+font: bold 12px Verdana;
 background: #414141;
 width: 100%;
 }
@@ -62,7 +62,7 @@ top: 0;
 
 /* Sub level menu links style */
 .jqueryslidemenu ul li ul li a{
-font: normal 13px Arial Unicode MS;
+font: normal 13px Verdana;
 width: 160px; /*width of sub menus*/
 padding: 5px;
 margin: 0;
