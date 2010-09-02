@@ -4,7 +4,8 @@ top:60;
 left:0;
 height:100%;
 width:100%;
-font-family:Arial Unicode MS,Helvetica,sans-serif;}
+font-family:Century Gothic,Arial Unicode MS,Helvetica,sans-serif;
+font-size: 14px;}
 
 
 div.surround
@@ -29,7 +30,7 @@ padding:5px;
 border:2.5px solid white;
 }
 #menu ul {
-text-aligh:right;
+text-align:right;
 list-style:none;
 margin:0;
 padding:0;
@@ -84,7 +85,7 @@ background-color:#414141;
 	}
  
 	#shadow-container .container {
-		background: #ffffff;
+		background: #f8f6f6;
 		border: 1px solid #848284;
 		padding: 10px;
 	}

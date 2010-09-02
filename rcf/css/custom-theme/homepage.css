@@ -2,21 +2,24 @@
 float:right;
 width:300px;
 margin:5px;
-padding: 5px 5px 5px 15px;}
+padding: 5px 5px 5px 15px;
+padding-top: 50px;}
 
 
 
 .h1{font-size:30px;}
-.h2{color:#71B9B2; font-size:30px;text-align:right;}
+.h2{color:black; font-size:23px; font-family: century gothic; text-align:right;}
+.h3{color:#7d7c7c; font-size:23px; font-family: century gothic; text-align:left; padding-top:10px;}
 
 #rcf_date
 {float:right;
 color:white;
-width:200px;
 margin:5px;
 padding:5px;
 font-size:16px;
-background-color:#71B9B2;
+background-color:#3bc4a8;
+padding-left:15px;
+padding-right:15px;
 }
 
 
