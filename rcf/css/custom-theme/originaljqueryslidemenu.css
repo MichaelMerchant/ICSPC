@@ -20,10 +20,10 @@ float: left;
 /*Top level menu link items style*/
 .jqueryslidemenu ul li a{
 display: block;
-background: #FFFFFF; /*background of tabs (default state)*/
+background: #414141; /*background of tabs (default state)*/
 color: white;
 padding: 8px 10px;
-border: 1px solid #778;
+border-right: 1px solid #778;
 color: #2d2b2b;
 text-decoration: none;
 }
@@ -33,12 +33,12 @@ display: inline-block;
 }
 
 .jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
-color: #669999;
+color: white;
 }
 
 .jqueryslidemenu ul li a:hover{
-background: #99cccc; /*tab link background during hover state*/
-color: #669999;
+background: black; /*tab link background during hover state*/
+color: white;
 }
 	
 /*1st sub level menu*/
@@ -71,8 +71,8 @@ border-bottom: 1px solid gray;
 }
 
 .jqueryslidemenuz ul li ul li a:hover{ /*sub menus hover style*/
-background: #99cccc;
-color: #669999;
+background: #eff9ff;
+color: black;
 }
 
 /* ######### CSS classes applied to down and right arrow images  ######### */

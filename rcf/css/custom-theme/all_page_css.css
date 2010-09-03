@@ -1,11 +1,14 @@
 body{
 position:absolute;
-top:60;
+top:0;
 left:0;
 height:100%;
 width:100%;
 font-family:Arial Unicode MS,Helvetica,sans-serif;}
 
+img
+{  border-style: none;
+}
 
 div.surround
 {
@@ -15,21 +18,20 @@ background:#FFFFFF;
 }
 #logo
 {
-float:left;
+position:relative;
+top:30;
 width:485px;
-padding:3px;
-border:2.5px solid white;
+border:0px;
 }
 
 #menu
-{
-float:right;
-width:585px;
-padding:5px;
-border:2.5px solid white;
+{position:relative;
+top: 0;
+left:500;
+width:515px;
 }
 #menu ul {
-text-aligh:right;
+text-align:left;
 list-style:none;
 margin:0;
 padding:0;
@@ -50,7 +52,7 @@ clear:both;
 
 #headerspan {
 font-size:2.5px;
-background-color:#414141;
+background-color:#669999;
 }
 
 
