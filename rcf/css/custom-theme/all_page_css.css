@@ -4,7 +4,8 @@ top:0;
 left:0;
 height:100%;
 width:100%;
-font-family:Arial Unicode MS,Helvetica,sans-serif;}
+font-family:Century Gothic,Arial Unicode MS,Helvetica,sans-serif;
+font-size: 14px;}
 
 img
 {  border-style: none;
@@ -86,7 +87,7 @@ background-color:#669999;
 	}
  
 	#shadow-container .container {
-		background: #ffffff;
+		background: #f8f6f6;
 		border: 1px solid #848284;
 		padding: 10px;
 	}
